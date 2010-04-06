@@ -1,8 +1,7 @@
-!SLIDE transition=fade
+!SLIDE code
+## #About ##
 
     @@@ ruby
-    #About
-    
     ryans = speakers[:ryans]
 
     ryans[:name]

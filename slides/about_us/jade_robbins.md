@@ -1,8 +1,7 @@
-!SLIDE transition=fade
+!SLIDE code
+## #About ##
 
-    @@@ ruby
-    #About
-    
+    @@@ ruby    
     jade = speakers[:jade]
 
     jade[:name]

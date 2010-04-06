@@ -1,5 +1,7 @@
 [
     {"section":"title"},
     {"section":"about_us"},
-    {"section":"ruby_basics"}
+    {"section":"ruby_basics"},
+    {"section":"package_management"},
+    {"section":"sinatra"}
 ]

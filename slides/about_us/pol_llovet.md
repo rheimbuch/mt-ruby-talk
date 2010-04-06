@@ -1,8 +1,7 @@
-!SLIDE transition=fade
+!SLIDE code
+## #About ##
         
-    @@@ ruby
-    #About
-    
+    @@@ ruby    
     pol = speakers[:pol]
 
     pol[:name]
