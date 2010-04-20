@@ -3,5 +3,6 @@
     {"section":"about_us"},
     {"section":"ruby_basics"},
     {"section":"package_management"},
-    {"section":"meta_programming"}
+    {"section":"ruby_implementations"},
+	{"section":"getting_started"}
 ]
