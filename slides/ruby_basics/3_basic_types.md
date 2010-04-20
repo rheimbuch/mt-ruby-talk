@@ -6,16 +6,18 @@
     "hello world!"       #=> "hello world"
     'single quotes work' #=> "single quotes work"
     %{more string "literals"} #=> "more string \"literals\""
+
+    # Variable interpolation
+    "the value of the variable is #{variable}"
     
     # Numbers
-    5000   
-    50.00  
-    2e-5   
+    5000   #=> Fixnum
+    50.00  #=> Float
+    2e-5   #=> Float
     
     # Boolean
     true
     false
-
 
 !SLIDE code
 ## Arrays ##
@@ -34,25 +36,7 @@
     
     mixed #=> [1, "two", 3, 3.14, 'append', nil, nil, "arrays are dynamic"]
 
-!SLIDE code
-## Array Iteration ##
 
-    @@@ ruby
-    mixed.each do |item|
-        puts item
-    end
-    
-    #=>
-    1
-    two
-    3
-    3.14
-    nil
-    nil
-    nil
-    arrays are dynamic
-
-    
 !SLIDE code
 ## Hashes ##
 
@@ -81,7 +65,7 @@
 
 * Prefixed with ':'
 * Light-weight, immutable strings
-* Used as hash keys
+* Often used as hash keys
 
     @@@ ruby
     "a string".object_id #=> 273821
@@ -90,6 +74,19 @@
     :a_symbol.object_id #=> 23543
     :a_symbol.object_id #=> 23543
 
+!SLIDE
+## Other Unusual Types ##
 
+  # Ranges
+ 
+  (1..6).class # Range
+  (1..6).each do |num|
+    puts num
+  end
+ 
+  # Regular Expressions
+  
+  /old/.class # Regexp
+  "the quick brown fox" =~ /quick/ #=> 4
 
 
