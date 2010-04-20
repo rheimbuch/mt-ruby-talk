@@ -1,4 +1,30 @@
 !SLIDE code
+## True and False ##
+  
+  false and nil are false
+
+  !false == true
+  !nil == true
+
+  everything else is true (including 0)
+
+  if 0 
+    puts('Zero is true!')
+  end
+
+!SLIDE code
+## Conditionals ##
+
+  1 == 1            # true
+  1 == 2            # false
+  'cat' == 'dog'    # false
+  (1 < 2)           # true
+  (4 > 6)           # false
+  a = 1 
+  b = 10000 
+  (a > b)           # false
+  
+!SLIDE code
 ## Loops ##
 
   # While, Until, For
@@ -38,31 +64,9 @@
     puts "The capital of #{state} is #{capital}."
   end
 
+  capitals.each { |state, capital|
+    puts "The capital of #{state} is #{capital}."
+  }
 
-!SLIDE code
-## True and False ##
-  
-  false and nil are false
-
-  !false == true
-  !nil == true
-
-  everything else is true (including 0)
-
-  if 0 
-    puts('Zero is true!')
-  end
-
-!SLIDE code
-## Conditionals ##
-
-  1 == 1            # true
-  1 == 2            # false
-  'cat' == 'dog'    # false
-  (1 < 2)           # true
-  (4 > 6)           # false
-  a = 1 
-  b = 10000 
-  (a > b)           # false
-
+  capitals.map{|capital| capital.upcase } #=> returns an array of upper-cased capitals
  
