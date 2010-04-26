@@ -1,4 +1,3 @@
-<!-- Ryan S -->
 !SLIDE
 
 # Classes

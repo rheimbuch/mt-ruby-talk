@@ -1,4 +1,3 @@
-<!-- Ryan H -->
 !SLIDE
 # Defining Methods #
 

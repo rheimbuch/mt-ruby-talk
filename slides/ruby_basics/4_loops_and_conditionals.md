@@ -1,4 +1,3 @@
-<!-- Ryan H -->
 !SLIDE code
 ## True and False ##
   

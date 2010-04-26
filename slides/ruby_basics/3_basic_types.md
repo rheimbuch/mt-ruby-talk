@@ -1,4 +1,3 @@
-<!-- Pol -->
 !SLIDE code
 ## Simple Types ##
     
