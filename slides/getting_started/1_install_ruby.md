@@ -5,21 +5,20 @@
 	<tr>
 		<td>
 			<h2>Mac</h2>
-			installed by default on Snow Leopard
+			<p>installed by default on Snow Leopard</p>
 		</td>
 		<td>
 			<h2>Windows</h2>
-			download the ruby installer
-			http://rubyinstaller.org/
-
-			- be sure to add Ruby to your path
+			<p>download the ruby installer<br />
+			http://rubyinstaller.org/<br />
+			<br />
+			- be sure to add Ruby to your path</p>
 		</td>
 		<td>
 			<h2>Linux</h2>
-			apt-get install ruby
-
-			-- or --
-
+			<p><code>apt-get install ruby</code></p>
+			<p>-- or --</p>
+			<p><code>
 			download and compile
 			http://www.ruby-lang.org/
 
@@ -29,6 +28,7 @@
 			./configure
 			make
 			sudo make install
+			</code></p>
 		</td>
 	</tr>
 </table>
