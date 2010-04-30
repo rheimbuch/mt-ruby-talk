@@ -1,10 +1,13 @@
 !SLIDE code
-## Try it out ##
+# Try It Out #
 
-TryRuby
+!SLIDE code
+# TryRuby #
 http://tryruby.org
+![](images/tryruby.png)
 
-IRB 
+!SLIDE code
+# IRB #
 (Interactive Ruby)
 
     @@@ ruby

@@ -1,5 +1,5 @@
-!SLIDE code
-# #About #
+!SLIDE 
+# About #
 
     @@@ ruby
     speakers.size

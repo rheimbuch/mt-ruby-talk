@@ -1,10 +1,9 @@
-!SLIDE
+!SLIDE code
 # Installing Ruby #
 
 !SLIDE
 # Mac #
 ## installed by default on Leopard ##
-
 
 !SLIDE commandline
 # Linux #
