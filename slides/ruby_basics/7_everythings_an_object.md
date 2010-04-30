@@ -1,7 +1,7 @@
-!SLIDE
+!SLIDE code
 # Everything's an Object #
 
-!SLIDE
+!SLIDE code
 
     @@@ ruby
     2 + 2 #=> 4

@@ -1,13 +1,19 @@
 Everything is an object
 - and mutable, no primitives
 - methods can be called directly on literals
+- most binary operators are actually calling methods on the first object 
+	and passing in the 2nd object.
+	which means you can operator overloading for things like addition, subtraction,
+	array access, hash access, etc...  but we won't get into that and it isn't common
 
 Classes
 - capital letters
-- inherit from object by default
+- inherit from object by default if you don't specify what they inherit from
 - instantiate with .new, can pass parameters to .new
 - Gives us Type Introspection, which means we can ask a class what it is, 
    which you've seen us doing
+- You can also see things like a list of the classes instance variables and
+   their values
 
 
 Classes Execute
@@ -16,7 +22,7 @@ Classes Execute
 	and in ruby, you are always in a class
 - so if a method gets called without being called directly on an object, we can assume it is called on self
 - so here, we're actually calling self.puts, which all classes inherit from the Object object
-- You'll see in class method calling a lot in rails to setup things like relations between models
+- You'll see in class method calling used a lot in rails to setup things like relations between models
 
 
 
@@ -30,10 +36,12 @@ Instance Variables
 - uses @ character
 - interaction with instance variables is through getters and setters
 - you use = in the method name for setters, getters are the instance variable name (typically)
+- you then set by saying object.var_name = ...
 
 
 Accessors
 - easy way to create getter/setter methods
+
 
 Modules
 - copies methods to a class
