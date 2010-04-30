@@ -1,4 +1,4 @@
-!SLIDE
+!SLIDE code
 # Defining Methods #
 
     @@@ ruby
@@ -6,14 +6,14 @@
         puts "Hello World"
     end
     
-!SLIDE
+!SLIDE code
 
     @@@ ruby
     def hello(name)
         puts "Hello #{name}"
     end
 
-!SLIDE
+!SLIDE code
 
     @@@ ruby
     def hello2(name="World")
@@ -21,7 +21,7 @@
     end
 
 
-!SLIDE
+!SLIDE code
 # Calling Methods #
 
     @@@ ruby
@@ -33,7 +33,7 @@
     #=> nil
     Hello World
 
-!SLIDE
+!SLIDE code
     
     @@@ ruby
     hello("World")
@@ -44,7 +44,7 @@
     #=> nil
     Hello World
     
-!SLIDE
+!SLIDE code
 
     @@@ ruby
     hello2
@@ -55,10 +55,10 @@
     #=> nil
     Hello Everyone
 
-!SLIDE
-# Return Values #
+!SLIDE code
 
-Methods return the last expression executed
+# Return Values #
+## Methods return the last expression executed ##
 
     @@@ ruby
     def method_return

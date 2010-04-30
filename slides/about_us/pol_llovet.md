@@ -1,6 +1,6 @@
 !SLIDE code
 ## #About ##
-        
+
     @@@ ruby    
     pol = speakers[:pol]
 
