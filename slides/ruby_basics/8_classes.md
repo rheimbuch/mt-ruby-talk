@@ -13,6 +13,22 @@
 
 !SLIDE code
 
+# Classes Execute
+	@@@ ruby
+	class Bug
+		puts "Setting up a Bug Class"
+		puts "(Not an Instance)"
+		
+		def alive?
+			true
+		end
+	end
+	
+	=> Setting up a Bug Class
+	=> (Not an Instance) 
+
+!SLIDE code
+
 # Inheritance
 
 	@@@ ruby
@@ -28,7 +44,7 @@
 
 !SLIDE code small
 
-# Instance Variables 1
+# Instance Variables
 
 	@@@ ruby
 	class Bug
@@ -54,7 +70,7 @@
 
 !SLIDE code
 
-# Instance Variables 2
+# Instance Variables
 
 	@@@ ruby
 	class Insect < Bug
@@ -69,8 +85,17 @@
 
 !SLIDE code
 
+# Accessors
+
+	@@@ ruby
+	attr_reader :wings
+	attr_writer :name
+	attr_accessor :location
+
+!SLIDE code
+
 <!-- Explain attr_accessor -->
-# Modules 1
+# Modules
 
 	@@@ ruby
 	module Wing
@@ -90,7 +115,7 @@
 !SLIDE code
 
 <!-- Explain extend vs include -->
-# Modules 2
+# Modules
 
 	@@@ ruby
 	class Bee < Insect

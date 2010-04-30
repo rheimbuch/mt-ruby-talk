@@ -1,0 +1,59 @@
+Everything is an object
+- and mutable, no primitives
+- methods can be called directly on literals
+
+Classes
+- capital letters
+- inherit from object by default
+- instantiate with .new, can pass parameters to .new
+- Gives us Type Introspection, which means we can ask a class what it is, 
+   which you've seen us doing
+
+
+Classes Execute
+- When the interpreter hits a class, it will execute the class top to bottom
+- In ruby, there is always an object called self, which points to the class the code is currently in
+	and in ruby, you are always in a class
+- so if a method gets called without being called directly on an object, we can assume it is called on self
+- so here, we're actually calling self.puts, which all classes inherit from the Object object
+- You'll see in class method calling a lot in rails to setup things like relations between models
+
+
+
+Inheritance
+- Inherits with < character
+- Multiple Inheritance is done with Mixins
+- Polymorphism is supported via method sending
+
+
+Instance Variables
+- uses @ character
+- interaction with instance variables is through getters and setters
+- you use = in the method name for setters, getters are the instance variable name (typically)
+
+
+Accessors
+- easy way to create getter/setter methods
+
+Modules
+- copies methods to a class
+- you can access instance variables from within these methods
+- also a way to call a pseudoconstructor when a module gets attached to a class
+
+- can be added to a class 2 ways
+- include adds instance methods, extend adds class methods
+	- this can be a bit confusing, since you'll see instances of a class extended instead of using include
+	- You can think of it is as
+
+
+
+## BACK TO POL
+
+
+Installing Ruby
+- ruby comes installed on snow leopard
+- on ubuntu, you can install from apt-get, otherwise I recommend compiling it from the source
+   I think the only requirement is zlib and openssl if you want to use ssl from your code
+- on windows, there's an installer someone put together that you can download, just be
+    sure to add ruby to your path so you can use it from the command line
+

@@ -11,4 +11,4 @@
     => "ryanstout@gmail.com"
 
     ryans[:about]
-    => "about ryan"
+    => "4 years of Rails development experience"
