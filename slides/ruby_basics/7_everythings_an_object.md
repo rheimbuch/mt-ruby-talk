@@ -4,11 +4,11 @@
 !SLIDE code
 
     @@@ ruby
-    2 + 2 #=> 4
-    2.+(2) #=> 4
+    2 + 4 #=> 6
+    2.+(4) #=> 6
     
-    "hi" << " there" #=> "hi there"
-    "hi".<<(" there") #=> "hi there"
+    "hi" + " there" #=> "hi there"
+    "hi".+(" there") #=> "hi there"
     
     
     "hi".class #=> String

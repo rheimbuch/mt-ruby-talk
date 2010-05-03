@@ -1,6 +1,8 @@
 Everything is an object
 - and mutable, no primitives
 - methods can be called directly on literals
+	- 5.minutes.ago example
+	- like you're reading it in english
 - most binary operators are actually calling methods on the first object 
 	and passing in the 2nd object.
 	which means you can operator overloading for things like addition, subtraction,
@@ -28,12 +30,13 @@ Classes Execute
 
 Inheritance
 - Inherits with < character
-- Multiple Inheritance is done with Mixins
+- Multiple Inheritance is done with Mixins/Modules (will cover later)
 - Polymorphism is supported via method sending
 
 
 Instance Variables
 - uses @ character
+- don't have to declare instance variables ahead of time
 - interaction with instance variables is through getters and setters
 - you use = in the method name for setters, getters are the instance variable name (typically)
 - you then set by saying object.var_name = ...
@@ -48,6 +51,7 @@ Modules
 - you can access instance variables from within these methods
 - also a way to call a pseudoconstructor when a module gets attached to a class
 
+NEXT SLIDE
 - can be added to a class 2 ways
 - include adds instance methods, extend adds class methods
 	- this can be a bit confusing, since you'll see instances of a class extended instead of using include

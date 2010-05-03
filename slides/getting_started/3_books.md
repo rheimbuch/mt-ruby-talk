@@ -16,10 +16,10 @@ SLIDE!
     </tr>
     <tr>
         <td>
-            <p style="text-align: center;"><img src="awd_rails.jpg" /></p>
+            <p style="text-align: center;"><img src="programming_ruby.jpg" /></p>
         </td>
         <td>
-            <p style="text-align: center;"><img src="programming_ruby.jpg" /></p>
+            <p style="text-align: center;"><img src="awd_rails.jpg" /></p>
         </td>
     </tr>
 </table>
