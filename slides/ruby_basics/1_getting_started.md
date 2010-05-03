@@ -5,8 +5,10 @@
 # TryRuby #
 
 ## http://tryruby.org ##
-  
-![TryRuby](tryruby.png)
+ 
+<div style="height: 390px;">
+    <img src="tryruby.png" />
+</div>
 
 !SLIDE code
 # IRB #
