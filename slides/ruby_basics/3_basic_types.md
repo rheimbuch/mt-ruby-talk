@@ -1,5 +1,5 @@
 !SLIDE code
-## Simple Types ##
+# Simple Types #
     
     @@@ ruby
     # Strings
@@ -20,7 +20,7 @@
     false
 
 !SLIDE code
-## Arrays ##
+# Arrays #
 
     @@@ ruby
     colors = ['red', 'green', 'blue']
@@ -38,7 +38,7 @@
 
 
 !SLIDE code
-## Hashes ##
+# Hashes #
 
     @@@ ruby
     colors = {'blue' => 0x0000FF,
@@ -60,12 +60,15 @@
 
 [fluffy cat picture]
 
-!SLIDE
-## Symbols ##
+!SLIDE code
+# Symbols #
 
-* Prefixed with ':'
-* Light-weight, immutable strings
-* Often used as hash keys
+    * Prefixed with ':'
+    * Light-weight, immutable strings
+    * Often used as hash keys
+
+!SLIDE code
+# Symbols Continued #
 
     @@@ ruby
     "a string".object_id #=> 273821
@@ -74,19 +77,21 @@
     :a_symbol.object_id #=> 23543
     :a_symbol.object_id #=> 23543
 
-!SLIDE
-## Other Unusual Types ##
+!SLIDE code
+# Other Unusual Types #
 
-  # Ranges
+## Ranges ##
  
-  (1..6).class # Range
-  (1..6).each do |num|
-    puts num
-  end
+    @@@ ruby
+    (1..6).class # Range
+    (1..6).each do |num|
+      puts num
+    end
  
-  # Regular Expressions
+## Regular Expressions ##
   
-  /old/.class # Regexp
-  "the quick brown fox" =~ /quick/ #=> 4
+    @@@ ruby
+    /old/.class # Regexp
+    "the quick brown fox" =~ /quick/ #=> 4
 
 

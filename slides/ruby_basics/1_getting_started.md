@@ -3,12 +3,14 @@
 
 !SLIDE code
 # TryRuby #
-http://tryruby.org
-![](images/tryruby.png)
+
+## http://tryruby.org ##
+  
+![TryRuby](tryruby.png)
 
 !SLIDE code
 # IRB #
-(Interactive Ruby)
+## (Interactive Ruby) ##
 
     @@@ ruby
     $ irb
@@ -19,8 +21,8 @@ http://tryruby.org
     => 3
 
 !SLIDE code
-## Script Files ##
+# Script Files #
 
-* .rb extension
-* No required headers
-* run with `ruby filename.rb`
+    * .rb extension
+    * No required headers
+    * run with `ruby filename.rb`
