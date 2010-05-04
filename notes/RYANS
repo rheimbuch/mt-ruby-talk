@@ -1,5 +1,6 @@
-Everything is an object
-- and mutable, no primitives
+Everything is an object in ruby
+- means everything is a class
+- everything mutable, no primitives
 - methods can be called directly on literals
 	- 5.minutes.ago example
 	- like you're reading it in english
